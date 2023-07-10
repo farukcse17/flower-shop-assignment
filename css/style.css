@@ -16,6 +16,10 @@ body{
     font-weight: 700;
     border-radius: 8px;
     border: none;
+    transition: 0.5s;
+}
+.btn:hover{
+    opacity: 0.7;
 }
 .btn-color{
     background: #E55473;
@@ -48,6 +52,7 @@ body{
 }
 .content-area p{
     padding: 32px 0px;
+    text-align: left;
 }
 
 .header-img img{
@@ -58,7 +63,7 @@ body{
 .main-section{
     margin-top: 100px;
 }
-/* Image gallery styles*/
+    /* Image gallery styles*/
 .gallery-section{
     width: 85%;
     margin: auto;
@@ -87,10 +92,63 @@ body{
     vertical-align: center;
     margin-right: 20px;
     background: rgba(167, 33, 98, 0.15);
-    height: 380px;
+    height: 370px;
 }
 .round-img-box img{
     width: 90%;
 }
+
+/* Offer section styles */
+.offer-section{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    margin-top: 80px;
+}
+.offer-section-container{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+.offer-section-left{
+    width: 50%;
+}
+.offer-section-left h2, p{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.offer-section-left button{
+    display: block;
+    margin: 0 auto;
+}
+.text-color{
+    color: #E55473;
+}
+
+
+/* Instagram section styles */
+.instagram-section{
+    margin: 100px 0px;
+}
+.instagram-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.insta-img-gallery{
+    display: flex;
+    justify-content: space-around;
+}
+.insta-img-gallery img{
+    width: 25%;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+.insta-img-gallery img:hover{
+    opacity: 0.7;
+}
+
 
 /* Footer section styles */
