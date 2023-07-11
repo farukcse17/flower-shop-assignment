@@ -35,6 +35,7 @@ body{
 /* Header Section Styles */
 #heading-section{
     background: #E554731A;
+    height: 100vh;
 }
 .heading-container{
     display: flex;
@@ -47,7 +48,7 @@ body{
 }
 /* .content-area{} */
 .content-area h1{
-    font-size: 56px;
+    font-size: 52px;
     text-align: left;
 }
 .content-area p{
@@ -56,16 +57,45 @@ body{
 }
 
 .header-img img{
-    max-height: 500px; 
+    max-height: 585px; 
 }
 
 /* Main Section Styles */
 .main-section{
-    margin-top: 100px;
+    /* margin-top: 100px; */
 }
-    /* Image gallery styles*/
+
+/* Counter styles section */
+.counter-section{
+    background: #111010;
+    color: rgba(255, 255, 255, 0.90);
+    margin-bottom: 50px;
+}
+.counter-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.counter-box{
+    border-right: 2px solid lightgray;
+    padding-right: 70px;
+    text-align: center;
+}
+.counter-box:last-child{
+    padding-right: none;
+    border: none;
+}
+.counter-box h2{
+    font-size: 40px;
+}
+.counter-box p{}
+/* Image gallery styles*/
 .gallery-section{
-    width: 85%;
+    width: 80%;
     margin: auto;
 }
 .text-section p{
@@ -118,7 +148,7 @@ body{
 .support-box{
     padding: 40px;
 }
-.
+
 
 /* Offer section styles */
 .offer-section{
